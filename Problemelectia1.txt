@@ -1,0 +1,23 @@
+Problema1 - ax^2+bx+c
+
+import cmath
+
+a = 1
+b = 5
+c = 6
+# Calculam discriminantul
+d = (b**2) - (4*a*c)
+
+# gasim 2 solutii
+sol1 = (-b-cmath.sqrt(d))/(2*a)
+sol2 = (-b+cmath.sqrt(d))/(2*a)
+
+print('Solutia este {0} si {1}'.format(sol1,sol2))
+
+Problema 2 - euclidean distance
+import math
+p1 = [4, 0]
+p2 = [6, 6]
+distance = math.sqrt( ((p1[0]-p2[0])**2)+((p1[1]-p2[1])**2) )
+
+print(distance)
