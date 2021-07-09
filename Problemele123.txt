@@ -1,0 +1,29 @@
+Victorina 
+Create a victorina that will ask the user how much is 2+2 until it answers right. 
+
+print('2 + 2 = ?')
+raspuns=int(input("Scrie raspunsul"))
+if raspuns == 4:
+    print('Corect')
+else:
+    print('Gresit')
+//////////////////////////////////////////////
+Problema 3
+Using stacked cycles generate the folowing digram:
+*
+**
+***
+****
+
+num = int(input('numarul de linii/randuri'))
+for i in range(1, num+1):
+    for j in range(1,i+1):
+        print("*", end="")
+    print()
+//////////////////////////////////////////////
+Problema 4
+Generate the multiplication table for ale numbers from 1 to 10. 
+
+for j in range(1, 11):
+    for i in range(1,11):
+        print(f'{i} * {j}= {i*j}')
